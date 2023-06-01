@@ -1,5 +1,7 @@
 "use client";
 
+import { Highlights } from "@components/Highlights";
+
 export default function Home() {
-  return <h1>Hello World</h1>;
+  return <Highlights />;
 }
