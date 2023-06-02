@@ -27,7 +27,7 @@ export function Highlights() {
         }
         alt="Movie cover"
         fill
-        style={{ objectFit: "cover", position: "absolute" }}
+        style={{ objectFit: "cover", position: "absolute", userSelect: "none" }}
       />
     </Container>
   );
